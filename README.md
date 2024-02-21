@@ -95,6 +95,8 @@ installing GTkWave
 ![gtkwave](<WhatsApp Image 2024-02-19 at 4.51.47 PM.jpeg>)
 </details>
 
+
+### The second online meet was held on 20th of Feb 2024 @6PM
 <details>
     <summary> TASK 2 </summary>
 
