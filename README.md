@@ -109,3 +109,9 @@ installing GTkWave
 In UART communication, two UARTs communicate directly with each other. The transmitting UART converts parallel data from a controlling device like a CPU into serial form, transmits it in serial to the receiving UART, which then converts the serial data back into parallel data for the receiving device. Only two wires are needed to transmit data between two UARTs. Data flows from the Tx pin of the transmitting UART to the Rx pin of the receiving UART:
 
 ![Block diagram](<WhatsApp Image 2024-02-21 at 9.34.44 PM.jpeg>)
+
+### Output Waveform of UART
+
+![output waveform](https://github.com/RucheetaMetri/VSD1/assets/160260388/7a7c704b-9627-4a91-aa68-438105f3e1d4)
+
+</details>
