@@ -108,7 +108,8 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ![Block diagram](<WhatsApp Image 2024-02-21 at 9.34.44 PM.jpeg>)
 
-### Output Waveform of UART
+### Output Waveform of UART:
+
 
 ![output waveform](https://github.com/RucheetaMetri/VSD1/assets/160260388/0dc302a5-e46d-4fe6-a8e7-502513c80689)
 
