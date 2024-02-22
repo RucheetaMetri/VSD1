@@ -101,9 +101,7 @@ installing GTkWave
     <summary> TASK 2 </summary>
 
 
-## Universal Asynchronous Receiver Transmitter protocol based on hardware transmitter
-
-### Introduction:
+## Universal Asynchronous Receiver Transmitter protocol based on hardware transmitter:
 
 
 In UART communication, two UARTs communicate directly with each other. The transmitting UART converts parallel data from a controlling device like a CPU into serial form, transmits it in serial to the receiving UART, which then converts the serial data back into parallel data for the receiving device. Only two wires are needed to transmit data between two UARTs. Data flows from the Tx pin of the transmitting UART to the Rx pin of the receiving UART:
@@ -112,6 +110,6 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ### Output Waveform of UART
 
-![output waveform](https://github.com/RucheetaMetri/VSD1/assets/160260388/7a7c704b-9627-4a91-aa68-438105f3e1d4)
+![output waveform](https://github.com/RucheetaMetri/VSD1/assets/160260388/0dc302a5-e46d-4fe6-a8e7-502513c80689)
 
 </details>
