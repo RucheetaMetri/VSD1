@@ -42,4 +42,10 @@ always @ (posedge clk or posedge rst) begin
     end
 end
 
+// Add $finish
+initial begin
+    $finish;
+end
+
 endmodule
+

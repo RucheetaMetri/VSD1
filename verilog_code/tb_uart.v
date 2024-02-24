@@ -47,6 +47,7 @@ initial begin
 
     // End simulation
     $stop;
+    $finish;
 end
 
 // Dump VCD file
@@ -56,3 +57,4 @@ initial begin
 end
 
 endmodule
+$finish
