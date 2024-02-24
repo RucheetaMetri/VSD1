@@ -57,4 +57,3 @@ initial begin
 end
 
 endmodule
-$finish
