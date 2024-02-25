@@ -110,7 +110,18 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ### Output Waveform of UART:
 
-
-![output waveform](https://github.com/RucheetaMetri/VSD1/assets/160260388/0dc302a5-e46d-4fe6-a8e7-502513c80689)
+![UART](ow.jpeg)
 
 </details>
+
+
+### The third online meet was held on 22th of Feb 2024 @6PM
+<details>
+    <summary> TASK 3 </summary>
+
+### UART:
+![waveform](<output waveform.jpeg>)
+
+ 
+![alt text](<WhatsApp Image 2024-02-25 at 10.41.03 AM.jpeg>)
+
