@@ -120,8 +120,8 @@ In UART communication, two UARTs communicate directly with each other. The trans
     <summary> TASK 3 </summary>
 
 ### UART:
-![waveform](<output waveform.jpeg>)
 
+![Image1](code.jpeg)
  
-![alt text](<WhatsApp Image 2024-02-25 at 10.41.03 AM.jpeg>)
+![Image2](WAVEFORM.jpeg)
 
