@@ -1,51 +1,77 @@
 module uart_tx(
-    input clk,           // Clock input
-    input rst,           // Reset input
-    input start_tx,      // Start transmission signal
-    input [7:0] data_tx, // Data to transmit
-    output reg tx_done,  // Transmission done signal
-    output reg tx_out    // Serial TX output
+    input clk,
+    input reset,
+    input start,
+    input [7:0] data,
+    output reg tx_busy,
+    output reg tx_done,
+    output reg tx
 );
 
-parameter BAUD_RATE = 9600; // Baud rate
-parameter CLK_FREQ = 50000000; // Clock frequency
+reg [3:0] tx_state;
+reg [3:0] bit_count;
+reg [12:0] baud_count;
+reg [7:0] tx_data_reg;
 
-reg [3:0] bit_count; // Bit count for serial transmission
-reg [15:0] baud_counter; // Baud counter for generating baud rate
-reg [7:0] tx_reg; // Register for holding transmit data
+localparam IDLE = 4'b0000;
+localparam START_BIT = 4'b0001;
+localparam DATA_BITS = 4'b0010;
+localparam STOP_BIT = 4'b0011;
 
-always @ (posedge clk or posedge rst) begin
-    if (rst) begin
+always @(posedge clk or posedge reset) begin
+    if (reset) begin
+        tx_busy <= 1'b0;
         tx_done <= 1'b0;
-        baud_counter <= 16'd0;
-        tx_out <= 1'b1; // Start with idle state (high)
+        tx_state <= IDLE;
         bit_count <= 4'd0;
-    end else if (start_tx) begin
-        tx_reg <= data_tx; // Load data to transmit
-        baud_counter <= 16'd0;
-        tx_out <= 1'b0; // Start bit
-        bit_count <= 4'd0;
-    end else if (baud_counter == (CLK_FREQ / BAUD_RATE)) begin
-        baud_counter <= 16'd0;
-        if (bit_count < 8) begin
-            tx_out <= tx_reg[bit_count]; // Transmit each bit of data
-            bit_count <= bit_count + 1;
-        end else if (bit_count == 8) begin
-            tx_out <= 1'b1; // Stop bit
-            bit_count <= bit_count + 1;
-        end else begin
-            tx_done <= 1'b1; // Transmission complete
-            tx_out <= 1'b1; // Set to idle state
+        baud_count <= 13'd0;
+    end
+    else begin
+        case(tx_state)
+            IDLE: begin
+                tx <= 1'b1;
+                if (start) begin
+                    tx_busy <= 1'b1;
+                    tx_done <= 1'b0;
+                    tx_state <= START_BIT;
+                    tx_data_reg <= data;
+                    bit_count <= 4'd0;
+                    baud_count <= 13'd0;
+                end
+            end
+            
+            START_BIT: begin
+                tx <= 1'b0;
+                if (baud_count == 13'd0) begin
+                    tx_state <= DATA_BITS;
+                end
+            end
+            
+            DATA_BITS: begin
+                tx <= tx_data_reg[bit_count];
+                if (baud_count == 13'd0) begin
+                    bit_count <= bit_count + 1;
+                    if (bit_count == 8'd7) begin
+                        tx_state <= STOP_BIT;
+                    end
+                    baud_count <= 13'd0;
+                end
+            end
+            
+            STOP_BIT: begin
+                tx <= 1'b1;
+                if (baud_count == 13'd0) begin
+                    tx_busy <= 1'b0;
+                    tx_done <= 1'b1;
+                    tx_state <= IDLE;
+                    bit_count <= 4'd0;
+                end
+            end
+        endcase
+        if (baud_count < 13'd16) begin
+            baud_count <= baud_count + 1;
         end
-    end else begin
-        baud_counter <= baud_counter + 1;
     end
 end
 
-// Add $finish
-initial begin
-    $finish;
-end
-
 endmodule
-
