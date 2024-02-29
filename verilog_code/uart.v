@@ -1,4 +1,4 @@
-module uart_tx(
+module uart(
     input clk,
     input reset,
     input start,

@@ -1,10 +1,10 @@
-module uart_tb;
+module tb_uart;
 
 reg clk, reset, start;
 reg [7:0] data;
 wire tx_busy, tx_done, tx;
 
-uart_tx uut (
+uart uut (
     .clk(clk),
     .reset(reset),
     .start(start),
