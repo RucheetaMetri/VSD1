@@ -125,3 +125,30 @@ In UART communication, two UARTs communicate directly with each other. The trans
  
 ![Image2](WAVEFORM.jpeg)
 
+</details>
+
+### The fourth online meet was held on 27th of Feb 2024 @6PM
+<details>
+    <summary> TASK 4 </summary>
+
+![ruc1](https://github.com/RucheetaMetri/VSD1/assets/160260388/55715df5-4fa2-4d04-84d6-f65318310832)
+
+![ruc2](https://github.com/RucheetaMetri/VSD1/assets/160260388/441deb25-1c57-4f0a-819b-36b41d8a8ad6)
+
+![ruc4](https://github.com/RucheetaMetri/VSD1/assets/160260388/7198e7cb-2f08-4fbb-a6c7-62edd61fe1ae)
+
+![ruc5](https://github.com/RucheetaMetri/VSD1/assets/160260388/25b8832b-e125-4388-be65-51dbb5f811af)
+
+![1d](https://github.com/RucheetaMetri/VSD1/assets/160260388/cd34fc61-c2bc-4fba-b9a0-fe4fc415d0c1)
+
+![w1](https://github.com/RucheetaMetri/VSD1/assets/160260388/a10628c8-2833-4a37-9633-dae990d26ba3)
+
+![w2](https://github.com/RucheetaMetri/VSD1/assets/160260388/8a09b537-501a-4fef-aa2b-04d4987bc95e)
+
+![w3](https://github.com/RucheetaMetri/VSD1/assets/160260388/98a526dd-72e6-4520-995c-fac09cda757e)
+
+![w4](https://github.com/RucheetaMetri/VSD1/assets/160260388/b3fb4377-990b-4a61-9db1-ff035a116aa9)
+
+![w5](https://github.com/RucheetaMetri/VSD1/assets/160260388/b2e80f13-2e71-4694-af3f-17095e90a6eb)
+</details>
+
