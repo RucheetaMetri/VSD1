@@ -125,3 +125,51 @@ In UART communication, two UARTs communicate directly with each other. The trans
  
 ![Image2](WAVEFORM.jpeg)
 
+</details>
+
+<details>
+    <summary> TASK 4 </summary>
+
+### WAVEFORMS 
+![alt text](<WhatsApp Image 2024-02-26 at 5.03.13 PM (1).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM.jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (1).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (2).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM.jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (1).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (2).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.31 PM.jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.36 PM.jpeg>)
+
+![alt text](<WhatsApp Image 2024-02-26 at 5.03.13 PM.jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.28 PM.jpeg>)
+
+</details>
+
+<details>
+    <summary> TASK 5 </summary>
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (3).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (4).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (5).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (3).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (4).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.36 PM (1).jpeg>)
+
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (6).jpeg>)
+
+</details>
