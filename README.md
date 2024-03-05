@@ -157,21 +157,10 @@ In UART communication, two UARTs communicate directly with each other. The trans
 </details>
 
 ### The Fivth online meet was held on 1th of Mar 2024 @6PM
+
 <details>
     <summary> TASK 5 </summary>
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (3).jpeg>)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (4).jpeg>)
-
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (5).jpeg>)
-
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (3).jpeg>)
-
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (4).jpeg>)
-
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.36 PM (1).jpeg>)
-
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (6).jpeg>)
 
 </details>
