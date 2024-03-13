@@ -241,7 +241,7 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ![r12](https://github.com/RucheetaMetri/VSD1/assets/160260388/f8d902d4-0e03-4f35-959a-e284d07fd591)
 
-*Invoking yosys inside iiitb_vm file:* 
+*Invoking yosys :* 
 
 ```yosys```
 
