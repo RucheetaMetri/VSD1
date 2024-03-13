@@ -153,17 +153,60 @@ In UART communication, two UARTs communicate directly with each other. The trans
 <details>
     <summary> TASK 4 </summary>
 
-   
+  *Invoking yosys inside verilog_code file:* 
+
+```yosys```
+
+*Reading the Library:*    
+
+```read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+*Reading the Design:*    
+
+```read_verilog uart.v```
+
+*Specifying the module that we are synthesizing:*    
+
+```synth -top uart```
+ 
 
 
     
 
 ![r1](https://github.com/RucheetaMetri/VSD1/assets/160260388/520cdab9-5510-48d2-a967-d216f05556ff)
 
+*To generate the netlist:*    
+
+```abc -liberty sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+
+
 ![r2](https://github.com/RucheetaMetri/VSD1/assets/160260388/383ebb42-67da-4da8-a024-0a5ce7d552d4)
+
+
+*Using the switch '-noattr' to get the simplified version of netlist file:*    
+
+```write_verilog -noattr uart_netlist.v```
+
+*To see the graphical version of the logic:*    
+
+```show```
+
+*To exit*
+
+```exit```
+
+*To check whether the netlist will match with the Design:*
+
+ ```iverilog primitives.v sky130_fd_sc_hd.v uart_netlist.v tb_uart.v``` 
+
+```./a.out``` 
+
+ ```gtkwave dumpfile.vcd```
 
 ![r3](https://github.com/RucheetaMetri/VSD1/assets/160260388/f6bb3696-c6a7-429e-b082-4f18eaaf5e5d)
 
+*GTKWAVE of netlist*
 
 ![r4](https://github.com/RucheetaMetri/VSD1/assets/160260388/c9e63d0b-696d-4921-97b0-30f045b9cc51)
 
