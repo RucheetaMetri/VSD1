@@ -221,15 +221,66 @@ In UART communication, two UARTs communicate directly with each other. The trans
 <details>
     <summary> TASK 5 </summary>
 
+
+*Design file after git clone*
+
+*We are checking gtkwave for the design*
+
+```iverilog iiitb_uarttx.v iiitb_uarttx_tb.v```
+
+```./a.out ```
+
+``` gtkwave dump.vcd```
+
+
     
 
 ![r11](https://github.com/RucheetaMetri/VSD1/assets/160260388/70288332-1300-4769-a292-eb83052f90c1)
 
+*Design Wave:*
+
 ![r12](https://github.com/RucheetaMetri/VSD1/assets/160260388/f8d902d4-0e03-4f35-959a-e284d07fd591)
 
+*Invoking yosys inside iiitb_vm file:* 
 
+```yosys```
+
+*Reading the Library:*    
+
+```read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+*Reading the Design:*    
+
+```read_verilog iiitb_uarttx.v```
+
+
+*Specifying the module that we are synthesizing:*    
+
+```synth -top UART_TX```
 
 ![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (4).jpeg>)
+
+
+*To generate the netlist:*    
+
+```abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+*To write the netlist:*  
+
+```write_verilog iiitb_uarttx_netlist.v```
+
+*To see the graphical version of the logic:*    
+
+```show```
+
+*Using the switch '-noattr' to get the simplified version of netlist file:*  
+
+```write_verilog -noattr iiitb_uarttx_netlist.v```
+
+*To open the netlist:*    
+
+```!gvim iiitb_uarttx_netlist.v```
+
 
 ![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (5).jpeg>)
 
@@ -239,7 +290,21 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ![alt text](<WhatsApp Image 2024-03-05 at 12.13.36 PM (1).jpeg>)
 
+*To check whether the netlist will match with the Design:*
+
+ ```iverilog primitives.v sky130_fd_sc_hd.v iiitb_uarttx_netlist.v iiitb_uarttx_tb.v``` 
+
+```./a.out``` 
+
+ ```gtkwave dump.vcd```
+
+
+
+
+
 ![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (3).jpeg>)
+
+*GTKWAVE of netlist*
 
 ![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (6).jpeg>)
 
