@@ -121,7 +121,29 @@ In UART communication, two UARTs communicate directly with each other. The trans
 
 ### UART:
 
+ *Cloning my github repositories:*    
+  
+```git clone https://github.com/RucheetaMetri/VSD1.git```
+
+```cd VSD1```
+
+```cd verilog_code```
+
+```iverilog uart.v tb_uart.v```
+
+*Generating dump_file*
+
+```./a.out```
+
+*To get I/O waveform*
+
+```gtkwave dumpfile.vcd```
+
 ![Image1](code.jpeg)
+
+
+### Wave Forms:
+
  
 ![Image2](WAVEFORM.jpeg)
 
