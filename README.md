@@ -145,7 +145,7 @@ In UART communication, two UARTs communicate directly with each other. The trans
 ### Wave Forms:
 
  
-![Image2](WAVEFORM.jpeg)
+![alt text](<WhatsApp Image 2024-03-05 at 12.13.28 PM.jpeg>)
 
 </details>
 
@@ -153,28 +153,23 @@ In UART communication, two UARTs communicate directly with each other. The trans
 <details>
     <summary> TASK 4 </summary>
 
-### WAVEFORMS 
-![alt text](<WhatsApp Image 2024-02-26 at 5.03.13 PM (1).jpeg>)
+   
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM.jpeg>)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (1).jpeg>)
+    
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.37 PM (2).jpeg>)
+![r1](https://github.com/RucheetaMetri/VSD1/assets/160260388/520cdab9-5510-48d2-a967-d216f05556ff)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM.jpeg>)
+![r2](https://github.com/RucheetaMetri/VSD1/assets/160260388/383ebb42-67da-4da8-a024-0a5ce7d552d4)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (1).jpeg>)
+![r3](https://github.com/RucheetaMetri/VSD1/assets/160260388/f6bb3696-c6a7-429e-b082-4f18eaaf5e5d)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.30 PM (2).jpeg>)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.31 PM.jpeg>)
+![r4](https://github.com/RucheetaMetri/VSD1/assets/160260388/c9e63d0b-696d-4921-97b0-30f045b9cc51)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.36 PM.jpeg>)
 
-![alt text](<WhatsApp Image 2024-02-26 at 5.03.13 PM.jpeg>)
 
-![alt text](<WhatsApp Image 2024-03-05 at 12.13.28 PM.jpeg>)
+
 
 </details>
 
